@@ -1,0 +1,41 @@
+{
+  "name": "ai-supervisor-prototype",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@zendesk-ui/assets": "^3.3.0",
+    "@zendesk-ui/navigation": "^1.12.3",
+    "@zendesk-ui/react-components": "^0.0.1-alpha.7",
+    "@zendeskgarden/css-bedrock": "^10.0.1",
+    "@zendeskgarden/react-avatars": "^9.15.8",
+    "@zendeskgarden/react-buttons": "^9.15.8",
+    "@zendeskgarden/react-forms": "^9.15.8",
+    "@zendeskgarden/react-tags": "^9.15.8",
+    "@zendeskgarden/react-theming": "^9.15.8",
+    "@zendeskgarden/react-tooltips": "^9.15.8",
+    "@zendeskgarden/react-typography": "^9.15.8",
+    "@zendeskgarden/svg-icons": "^8.4.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "styled-components": "^6.5.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@types/styled-components": "^5.1.36",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vite-plugin-svgr": "^5.2.0"
+  }
+}
